@@ -3,12 +3,13 @@
 // 輸入說明: 輸入一串數學式子的字串
 // 輸出說明: 請直接console.log出答案
 // 提示: String.includes, String.split
+let number1
+let number2 
+let number3
 
-
-let calc = function (calcString: string) {
-
+let calc = function (calcString: string,) {
+    console.log(eval(calcString.transpileEval()));
 }
-
 calc('8*2')
 calc('1+1')
 calc('5/5')
